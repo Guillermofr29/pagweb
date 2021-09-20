@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'PT Sans', sans-serif !important;
+  background-image: url(../img/FondoDesva.jpg);
+
+}
+
+.item {
+  border: 2px solid #ad067e;
+  padding: 30px 10px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.item-title {
+  text-align: center;
+  font-weight: 400;
+}
+.item-button{
+  font-weight: 400;
+  text-align: center;
+  background: #fa5cab;
+  border: 2px solid #ad067e;
+  padding: 7px 7px;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+}
+
+.item-button:hover{
+  background-color: #ad067e;
+  color: #fff;
+  border-color: #83035f;
+}
+.item-image{
+  height: 300px;
+  width: 70%;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+
+/* ? SHOPPING CART */
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid rgb(181, 181, 181);
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 10px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 5px;
+  background: #fff;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
+footer{
+  background: #fa5cab;
+  padding: 30px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+.Contenedor-footer{
+ 
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #fff;
+}
+.content-foo{
+  text-align: center;
+}
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #ad067e;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.content-foo p{
+  color: #fff;
+}
+.titulo-final{
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  margin: 20px 0 0 0;
+}
